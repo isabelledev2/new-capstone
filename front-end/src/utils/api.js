@@ -158,6 +158,11 @@
    return await fetchJson(url, options, {});
  }
 
+// heroku-backend-teddy    https://git.heroku.com/heroku-backend-teddy.git (fetch)
+// heroku-backend-teddy    https://git.heroku.com/heroku-backend-teddy.git (push)
+// heroku-frontend-teddy   https://git.heroku.com/heroku-frontend-teddy.git (fetch)
+// heroku-frontend-teddy   https://git.heroku.com/heroku-frontend-teddy.git (push)
+
 // git subtree add --prefix front-end heroku-frontend
 // git subtree add --prefix back-end heroku-backend
 // git subtree push --prefix front-end heroku-client main:master
