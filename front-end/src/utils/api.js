@@ -158,6 +158,9 @@
    return await fetchJson(url, options, {});
  }
 
+// git subtree add --prefix frontend-cap-teddy
+// git subtree add --prefix backend-cap-teddy
+
 // heroku-backend-teddy    https://git.heroku.com/heroku-backend-teddy.git (fetch)
 // heroku-backend-teddy    https://git.heroku.com/heroku-backend-teddy.git (push)
 // heroku-frontend-teddy   https://git.heroku.com/heroku-frontend-teddy.git (fetch)
@@ -168,7 +171,8 @@
 // git subtree push --prefix front-end heroku-client main:master
 // git subtree push --prefix back-end heroku-backend main:master
 
-
+// git subtree push --prefix back-end heroku-backend-teddy master
+// git subtree push --prefix front-end heroku-frontend-teddy master
 // =======
 // /**
 //  * Defines the base URL for the API.
